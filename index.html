@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend Web Developer | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo">Developer/Hub</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact" class="btn-nav">Contact Me</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <p class="greeting">Hi, my name is</p>
+      <h1 class="name">
+  <span id="typewriter"></span><span class="cursor">|</span>
+</h1>
+      <h2 class="role">I build clean & interactive web applications.</h2>
+      <p class="bio-short">
+        I'm a frontend web developer learning and crafting responsive user interfaces with HTML, CSS, JavaScript, and Java. Focused on clean code and great user experiences.
+      </p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn-primary">View My Work</a>
+        <a href="#contact" class="btn-secondary">Get In Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills-section">
+    <h2 class="section-title"><span>01.</span> My Tech Stack</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <i class="fab fa-html5"></i>
+        <h3>HTML5</h3>
+        <p>Semantic & Accessible Structure</p>
+      </div>
+      <div class="skill-card">
+        <i class="fab fa-css3-alt"></i>
+        <h3>CSS3</h3>
+        <p>Flexbox, Grid, Animations & Responsive Design</p>
+      </div>
+      <div class="skill-card">
+        <i class="fab fa-js"></i>
+        <h3>JavaScript</h3>
+        <p>DOM Manipulation, Logic & ES6+</p>
+      </div>
+      <div class="skill-card">
+        <i class="fab fa-java"></i>
+        <h3>Java</h3>
+        <p>Object-Oriented Programming & Fundamentals</p>
+      </div>
+    </div>
+  </section>
+
+<!-- Projects Section -->
+  <section id="projects" class="projects-section">
+    <h2 class="section-title"><span>02.</span> Featured Projects</h2>
+    <div class="projects-grid">
+      
+      <!-- Project 1: Hackathon Project -->
+      <div class="project-card">
+        <div class="project-header">
+          <i class="far fa-folder-open folder-icon"></i>
+          <div class="project-links">
+            <a href="https://mahira-saleem.github.io/hackathon/" target="_blank" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <h3 class="project-title">Hackathon Web Project</h3>
+        <p class="project-desc">
+          Frontend web application developed for SMIT Hackathon event showcasing responsive layout and design.
+        </p>
+        <ul class="project-tech">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+      </div>
+
+      <!-- Project 2: Java / JS Assignment 15 -->
+      <div class="project-card">
+        <div class="project-header">
+          <i class="far fa-folder-open folder-icon"></i>
+          <div class="project-links">
+            <a href="https://mahira-saleem.github.io/java-15-assignment/" target="_blank" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <h3 class="project-title">Interactive JS Application</h3>
+        <p class="project-desc">
+          Web logic assignment built using core JavaScript and HTML/CSS for interactive UI operations.
+        </p>
+        <ul class="project-tech">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+      </div>
+
+      <!-- Project 3: Java / JS Assignment 16 -->
+      <div class="project-card">
+        <div class="project-header">
+          <i class="far fa-folder-open folder-icon"></i>
+          <div class="project-links">
+            <a href="https://mahira-saleem.github.io/java-16-assignment/" target="_blank" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <h3 class="project-title">Dynamic Web Project</h3>
+        <p class="project-desc">
+          Frontend application demonstrating DOM manipulation, event handling, and custom styling.
+        </p>
+        <ul class="project-tech">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Certificates Section -->
+  <section id="certificates" class="certificates-section">
+    <h2 class="section-title"><span>03.</span> Certifications & Achievements</h2>
+    <div class="cert-grid">
+      
+      <!-- Cert 1 -->
+      <div class="cert-card">
+        <div class="cert-icon"><i class="fas fa-award"></i></div>
+        <div class="cert-info">
+          <h3>FEMHACK-2026 (Hackathon)</h3>
+          <p class="cert-issuer">Saylani Welfare International Trust (SMIT)</p>
+          <span class="cert-date">Certificate of Participation (8 Hours Duration)</span>
+        </div>
+      </div>
+
+      <!-- Cert 2 -->
+      <div class="cert-card">
+        <div class="cert-icon"><i class="fas fa-shield-alt"></i></div>
+        <div class="cert-info">
+          <h3>Introduction to Cybersecurity</h3>
+          <p class="cert-issuer">Cisco Networking Academy</p>
+          <span class="cert-date">Issued: Feb 26, 2026</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+ 
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <p class="contact-sub">What's Next?</p>
+    <h2 class="contact-title">Get In Touch</h2>
+    <p class="contact-text">
+      Have a question, project idea, or just want to say hi? Send me a message and I'll get back to you!
+    </p>
+
+    <!-- Interactive Contact Form -->
+    <form action="https://formspree.io/f/xppwarwk" method="POST" class="contact-form">
+      <div class="form-group">
+        <input type="text" name="name" placeholder="Your Name" required>
+      </div>
+      <div class="form-group">
+        <input type="email" name="email" placeholder="Your Email" required>
+      </div>
+      <div class="form-group">
+        <textarea name="message" rows="5" placeholder="Your Message..." required></textarea>
+      </div>
+      <button type="submit" class="btn-primary large">Send Message</button>
+    </form>
+
+    <!-- Social & Professional Links -->
+    <div class="social-footer">
+      <a href="https://github.com/Mahira-Saleem" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+      <a href="mailto:mahirasaleemahmad@gmail.com" title="Direct Email"><i class="fas fa-envelope"></i></a>
+      <a href="https://www.linkedin.com/in/mahira-saleem-3320653b6/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </section>
+
+  <footer>
+    <p>Designed & Built by Frontend Developer</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
